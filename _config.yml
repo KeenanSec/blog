@@ -118,6 +118,7 @@ actions:
     # Set to true if the URL should remain unchanged, which means each post will share the same edit link.
     static_url: false # [ true | false ]
 
+
 comments:
   # Global switch for the post-comment system. Keeping it empty means disabled.
   provider: # [disqus | utterances | giscus]
@@ -161,7 +162,7 @@ pwa:
 paginate: 10
 
 # The base URL of your site
-baseurl: "blog"
+baseurl: "/blog"
 
 # ------------ The following options are not recommended to be modified ------------------
 
